@@ -1,6 +1,6 @@
 const mysql = require('mysql');
 
-const con = mySql.createConnection({
+const con = mysql.createConnection({
     host: "localhost",
     user: "root", // Corrected property name
     password: "Hulktnt5",
